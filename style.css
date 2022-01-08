@@ -188,7 +188,7 @@ section{
     /* border: 1px solid blue; */
     /* height: 150px; */
     display: flex;
-    margin-left: 180px;
+    margin-left: 110px;
     margin-top: -85px;
 }
 .imgs > img{
@@ -288,6 +288,9 @@ section{
     color: crimson;
     background:  rgb(4, 4, 29);
 }
+.contact-content > h2{
+    margin-left: 135px;
+}
 .flex1{
     width: 80%;
     margin: auto;
@@ -349,7 +352,7 @@ button:hover{
 
 /* --------media Quary ------------------*/
 
-@media (max-width:1200px){
+@media (max-width:1100px){
     .max-width{
         padding: 0 50px;
     }
@@ -361,6 +364,7 @@ button:hover{
         content: "\f00d";
     }
     .navbar .menu{
+        position: fixed;
         background: rgb(4, 4, 29);
         height: 100vh;
         width: 100%;
@@ -389,7 +393,8 @@ button:hover{
         font-size: 35px;
     }
     .home .home-content .text-3{
-        font-size: 20px;
+        font-size: 22px;
+        width: 290%;
     }
     .home{
         flex-direction: column-reverse;
@@ -404,7 +409,10 @@ button:hover{
     }
     .home .home-content a{
         font-size: 23px;
-        padding: 10px 30px;
+        padding: 8px 30px;
+    }
+    .home-content > div:nth-child(4) {
+        width: 270%;
     }
     .project-content{
         display: block;
@@ -430,8 +438,6 @@ button:hover{
         margin-top: 35px;
     }
     .imgs{
-        /* border: 1px solid blue; */
-        /* height: 150px; */
         display: grid;
         grid-template-columns: auto auto auto;
         margin-left: 145px;
@@ -447,14 +453,14 @@ button:hover{
 @media(max-width: 600px){
     .home .home-content a{
         font-size: 21px;
-        width: 150px;
+        width: 140px;
     }
     .home{
         width: 75%;
     }
     img{
-        margin-left: -46px;
-        margin-top: 35px;
+        margin-left: -57px;
+        margin-top: -32px;
     }
     .clone{
         width: 332px;
@@ -509,5 +515,36 @@ button:hover{
         transform: translateX(-50%);
         color: crimson;
         background:  rgb(4, 4, 29);
+    }
+    .home .home-content{
+        margin-left: -175px;
+    }
+    .home .home-content .text-2{
+        font-size: 30px;
+        width: 230px;
+        margin-left: 0px;
+    }
+    .home .home-content .text-3{
+        width: 290%;
+    }
+    .about-content{
+        width: 110%;
+        margin: auto;
+    }
+    .home-content > div:nth-child(4){
+        width: 270%;
+    }
+    #sk{
+        margin-left: 40px;
+    }
+    .imgs{
+        margin-left: 110px;
+    }
+    .left{
+        margin-left: -30px;
+    }
+    .contact-content > h2{
+        width: 100%;
+        margin-left: -8%;
     }
 }
