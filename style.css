@@ -181,6 +181,20 @@ section{
 .about-content ul{
     margin-left: 40px;
 }
+#sk{
+    margin-left: 80px;
+}
+.imgs{
+    /* border: 1px solid blue; */
+    /* height: 150px; */
+    display: flex;
+    margin-left: 180px;
+    margin-top: -85px;
+}
+.imgs > img{
+    width: 60px;
+    margin-left: -120px;
+}
 /* ----------------projecct-------------------- */
 
 .project{
@@ -335,7 +349,7 @@ button:hover{
 
 /* --------media Quary ------------------*/
 
-@media (max-width:990px){
+@media (max-width:1200px){
     .max-width{
         padding: 0 50px;
     }
@@ -378,7 +392,7 @@ button:hover{
         font-size: 20px;
     }
     .home{
-        display: block;
+        flex-direction: column-reverse;
         /* border: 1px solid blue; */
         width: 50%;
         margin: auto;
@@ -415,9 +429,22 @@ button:hover{
         margin-left: 45px;
         margin-top: 35px;
     }
+    .imgs{
+        /* border: 1px solid blue; */
+        /* height: 150px; */
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-left: 145px;
+        margin-top: 50px;
+    }
+    .imgs > img{
+        width: 60px;
+        margin-left: -120px;
+        margin-top: -120px;
+    }
 }
 
-@media(max-width: 670px){
+@media(max-width: 600px){
     .home .home-content a{
         font-size: 21px;
         width: 150px;
@@ -443,7 +470,7 @@ button:hover{
     .right{
         width: 297px;
         margin: auto;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
     }
     .right > #contact-form > input{
         margin-bottom: 20px;
@@ -471,5 +498,16 @@ button:hover{
     }
     .flex1{
         margin-left: -10px;
+    }
+    .contact .title::after{
+        content: "get in touch";
+        position: absolute;
+        bottom: -8px;
+        font-size: 18px;
+        padding: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: crimson;
+        background:  rgb(4, 4, 29);
     }
 }
