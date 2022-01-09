@@ -33,5 +33,6 @@ function sendMail(params){
     emailjs.send('service_kp6f4mc', 'template_1icw2j1', tempParams)
     .then(function(res){
         console.log("success", res.status);
+        alert("Your message successfully sent to Vipul")
     });
 }
