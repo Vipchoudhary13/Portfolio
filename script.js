@@ -36,3 +36,7 @@ function sendMail(params){
         alert("Your message successfully sent to Vipul")
     });
 }
+
+document.getElementById("contact-form").addEventListener("submit", (e)=>{
+    e.preventDefault();
+})
