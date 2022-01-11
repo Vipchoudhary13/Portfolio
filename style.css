@@ -101,7 +101,7 @@ img{
     
 }
 .home .home-content{
-    margin-left: -110px;
+    margin-left: 90px;
 }
 .home .home-content .text-1{
     font-size: 20px;
@@ -112,7 +112,7 @@ img{
     margin-left: -3px;
 }
 .home .home-content .text-3{
-    font-size: 23px;
+    font-size: 20px;
     margin-left: 5px 0; 
 }
 .home .home-content .text-3 span{
@@ -181,6 +181,9 @@ section{
 .about-content ul{
     margin-left: 40px;
 }
+.fx > div:nth-child(1){
+    margin-left: 35px;
+}
 #sk{
     margin-left: 80px;
 }
@@ -188,8 +191,8 @@ section{
     /* border: 1px solid blue; */
     /* height: 150px; */
     display: flex;
-    margin-left: 110px;
-    margin-top: -85px;
+    margin-left: 145px;
+    margin-top: -95px;
 }
 .imgs > img{
     width: 60px;
@@ -242,8 +245,9 @@ section{
     display: flex;
     margin-bottom: 15px;
 }
-.flex > img{
-    width: 45%;
+.flex > a > img{
+    cursor: pointer;
+    width: 95%;
     height: 150px;
     border-radius: 10px;
     margin-right: 30px;
@@ -387,13 +391,15 @@ button:hover{
         font-size: 25px;
     }
     .home .home-content{
-        justify-content: center;
+        /* justify-content: center; */
+        margin-left: -82px;
+        margin-top: 21px
     }
     .home .home-content .text-2{
         font-size: 35px;
     }
     .home .home-content .text-3{
-        font-size: 22px;
+        font-size: 20px;
         width: 290%;
     }
     .home{
@@ -423,7 +429,7 @@ button:hover{
         margin-top: 20px;
         margin-left: 130px;
     }
-    .flex > img{
+    .flex > a > img{
         height: 120px;
         width: 250px;
         margin-top: 4px;
@@ -467,7 +473,7 @@ button:hover{
         height: 408px;
         margin-left: -36px;
     }
-    .flex > img{
+    .flex > a > img{
         height: 82px;
         width: 132px;
         margin-top: 4px;
@@ -517,7 +523,7 @@ button:hover{
         background:  rgb(4, 4, 29);
     }
     .home .home-content{
-        margin-left: -175px;
+        margin-left: -180px;
     }
     .home .home-content .text-2{
         font-size: 30px;
@@ -535,7 +541,7 @@ button:hover{
         width: 270%;
     }
     #sk{
-        margin-left: 40px;
+        margin-left: 25px;
     }
     .imgs{
         margin-left: 110px;
@@ -546,5 +552,8 @@ button:hover{
     .contact-content > h2{
         width: 100%;
         margin-left: -8%;
+    }
+    .fx{
+        margin-left: -40px;
     }
 }
