@@ -39,4 +39,8 @@ function sendMail(params){
 
 document.getElementById("contact-form").addEventListener("submit", (e)=>{
     e.preventDefault();
+
+    email:document.getElementById("email").value = "";
+    name:document.getElementById("toName").value = "";
+    message:document.getElementById("message").value = "";
 })

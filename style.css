@@ -362,7 +362,7 @@ button:hover{
     }
     .menu-btn{
         display: block;
-        z-index: 999;
+        z-index: 1;
     }
     .menu-btn i.active::before{
         content: "\f00d";
@@ -380,7 +380,7 @@ button:hover{
         transition: all 0.3s ease;
     }
     .navbar .menu.active{
-        left: 0;
+        left: -7%;
     }
     .navbar .menu li{
         display: block;
@@ -555,5 +555,8 @@ button:hover{
     }
     .fx{
         margin-left: -40px;
+    }
+    .navbar .menu.active{
+        left: -16%;
     }
 }
