@@ -381,7 +381,7 @@ button:hover{
         transition: all 0.3s ease;
     }
     .navbar .menu.active{
-        left: -7%;
+        left: 0%;
     }
     .navbar .menu li{
         display: block;
@@ -390,6 +390,9 @@ button:hover{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+    .navbar{
+        bottom: 95%;
     }
     .home .home-content{
         /* justify-content: center; */
@@ -464,6 +467,7 @@ button:hover{
     }
     .home{
         width: 75%;
+        margin-top: 15%;
     }
     img{
         margin-left: -57px;
@@ -558,6 +562,9 @@ button:hover{
         margin-left: -40px;
     }
     .navbar .menu.active{
-        left: -16%;
+        left: 0%;
+    }
+    .navbar{
+        bottom: 93%;
     }
 }
