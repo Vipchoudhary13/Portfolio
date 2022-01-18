@@ -19,7 +19,7 @@ body{
     /* border: 2px solid blue; */
 }
 .navbar{
-    bottom: 84%;
+    bottom: 90%;
     position: fixed;
     width: 100%;
     padding: 15px 0;
@@ -565,6 +565,6 @@ button:hover{
         left: 0%;
     }
     .navbar{
-        bottom: 93%;
+        bottom: 92%;
     }
 }
