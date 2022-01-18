@@ -19,11 +19,11 @@ body{
     /* border: 2px solid blue; */
 }
 .navbar{
-    
-    /* position: fixed; */
+    bottom: 84%;
+    position: fixed;
     width: 100%;
     padding: 15px 0;
-    /* background-color: crimson; */
+    background-color: crimson;
     font-family: "Ubuntu", sans-serif;
 }
 .navbar .max-width{
@@ -37,7 +37,7 @@ body{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgb(4, 4, 29);
 }
 .navbar .menu li{
     list-style: none;
@@ -51,7 +51,7 @@ body{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(233, 118, 141);
 }
 .scroll-up-btn{
     position: fixed;
@@ -87,6 +87,7 @@ body{
     display: flex;
     /* border: 5px solid green; */
     padding: 80px;
+    margin-top: 4%;
     font-family: "Ubuntu", sans-serif;
     justify-content: space-between;
 }

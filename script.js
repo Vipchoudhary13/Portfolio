@@ -4,6 +4,11 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+     $('.menu a').click(function(){
+         $('.navbar .menu').toggleClass("active");
+         $('.menu a').toggleClass("before");
+    });
+
     $(window).scroll(function(){
         if(this.scroll > 500){
             $('.scroll-up-btn').addClass("show");
