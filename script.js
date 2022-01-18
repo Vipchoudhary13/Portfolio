@@ -5,8 +5,8 @@ $(document).ready(function(){
     });
 
      $('.menu a').click(function(){
-         $('.navbar .menu').toggleClass("active");
-         $('.menu a').toggleClass("before");
+        //  $('.navbar .menu').toggleClass("active");
+         $('.menu a').toggleClass("active");
     });
 
     $(window).scroll(function(){
