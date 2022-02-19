@@ -100,7 +100,7 @@ img{
     
 }
 .home .home-content{
-    margin-left: 90px;
+    margin-left: 130px;
 }
 .home .home-content .text-1{
     font-size: 20px;
@@ -132,6 +132,10 @@ img{
     color: crimson;
     background: none;
 }
+.icons{
+    display: flex;
+    margin-left: 53px;
+}
 
 /* ------------------about-------------- */
 
@@ -160,7 +164,7 @@ section{
     background-color: #fff;
 }
 .about .title::after{
-    content: "who i am";
+    content: "who I am";
     position: absolute;
     bottom: -10px;
     font-size: 20px;
@@ -329,8 +333,11 @@ section{
     margin-left: 23px;
     margin-top: 20px;
 }
-.icons{
+/* .icons{
     display: flex;
+    margin-left: 10px;
+} */
+.bt{
     margin-left: 10px;
 }
 .icons > a{
